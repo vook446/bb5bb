@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S Tmbakir_BOT -X kill
+screen -S Tmbakir_BOT ./start
+done
